@@ -1,3 +1,4 @@
+<img width="1105" height="617" alt="Screenshot 2026-07-19 231259" src="https://github.com/user-attachments/assets/675115e1-69ba-40a2-bfa9-90e8a450fc21" />
 # VOLT
 
 High-performance network stress testing tool. C++ frontend with Rust backend.
@@ -16,7 +17,7 @@ High-performance network stress testing tool. C++ frontend with Rust backend.
 
 ---
 
-![Screenshot](https://github.com/user-attachments/assets/be3edd96-d9cc-43bf-9ba0-c75617c7bf5f)
+<img width="1105" height="617" alt="Screenshot 2026-07-19 231259" src="https://github.com/user-attachments/assets/675115e1-69ba-40a2-bfa9-90e8a450fc21" />
 
 ---
 
