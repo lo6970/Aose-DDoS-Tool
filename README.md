@@ -12,8 +12,11 @@ High-performance network stress testing tool. C++ frontend with Rust backend.
 - **TCP Flood** - Mass connection attempts, resource exhaustion
 - **Live Statistics** - Real-time packet counter with bandwidth display
 - **Hybrid Engine** - C++ menu & stats + Rust high-performance attack backend
-- **Port Scanner Ready** - Works on any TCP/UDP port
 - **Clean Interface** - ASCII logo, colored output, intuitive controls
+
+---
+
+![Screenshot](https://github.com/user-attachments/assets/be3edd96-d9cc-43bf-9ba0-c75617c7bf5f)
 
 ---
 
@@ -23,27 +26,24 @@ High-performance network stress testing tool. C++ frontend with Rust backend.
 |-----------|---------|
 | Windows   | 10 or 11 |
 | Rust      | Latest stable |
-| Visual Studio | 2022 or newer (for C++ compiler) |
+| Visual Studio | 2022 or newer |
 
 ---
 
 ## Installation
 
-### Option A - Pre-built (Easy)
-1. Download `VOLT.exe` and `ddos.dll` from the **Releases** page
+### Option A - Pre-built
+1. Download `VOLT.exe` and `ddos.dll` from **Releases**
 2. Put BOTH files in the **SAME folder**
 3. Run `VOLT.exe`
 
 ### Option B - Build yourself
 
-**Both files MUST be in the SAME folder!**
+Both files MUST be in the SAME folder.
 
 **1. Open terminal in your project folder:**
 ```bash
-cd C:\Users\YourName\Desktop\VOLT 
-rustc -O ddos.rs --crate-type cdylib -o ddos.dll 
-
-
-<img width="1112" height="624" alt="image" src="https://github.com/user-attachments/assets/be3edd96-d9cc-43bf-9ba0-c75617c7bf5f" />
-
-
+cd C:\Users\YourName\Desktop\VOLT
+rustc -O ddos.rs --crate-type cdylib -o ddos.dll
+"C:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\Build\vcvars64.bat"
+cl /O2 main.cpp /Fe:VOLT.exe /std:c++17
