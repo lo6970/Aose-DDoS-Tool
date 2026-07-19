@@ -47,4 +47,4 @@ Both files MUST be in the SAME folder.
 cd C:\Users\YourName\Desktop\Aose
 rustc -O ddos.rs --crate-type cdylib -o ddos.dll
 "C:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\Build\vcvars64.bat"
-cl /O2 main.cpp /Fe:VOLT.exe /std:c++17
+cl /O2 main.cpp /Fe:Aose.exe /std:c++17
