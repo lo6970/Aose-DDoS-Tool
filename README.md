@@ -1,5 +1,5 @@
 
-# VOLT
+# Aose
 
 High-performance network stress testing tool. C++ frontend with Rust backend.
 
@@ -34,9 +34,9 @@ High-performance network stress testing tool. C++ frontend with Rust backend.
 ## Installation
 
 ### Option A - Pre-built
-1. Download `VOLT.exe` and `ddos.dll` from **Releases**
+1. Download `Aose.exe` and `ddos.dll` from **Releases**
 2. Put BOTH files in the **SAME folder**
-3. Run `VOLT.exe`
+3. Run `Aose.exe`
 
 ### Option B - Build yourself
 
@@ -44,7 +44,7 @@ Both files MUST be in the SAME folder.
 
 **1. Open terminal in your project folder:**
 ```bash
-cd C:\Users\YourName\Desktop\VOLT
+cd C:\Users\YourName\Desktop\Aose
 rustc -O ddos.rs --crate-type cdylib -o ddos.dll
 "C:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\Build\vcvars64.bat"
 cl /O2 main.cpp /Fe:VOLT.exe /std:c++17
